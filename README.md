@@ -23,10 +23,11 @@ Infotext zu
 
 funktion
 <img src="439c575e-886a-4fbb-b347-b71f1feb0e71.jpg">
+Zweck: Schlüsselt das Packet auf und leitet Informationen weiter.
 
-Telegramm
+Telegrammsender
 <img src="ec979cec-e4cb-4844-a327-dbb8959a7c5f.jpg">
-
+Zweck: Der Bot schreibt im Gruppenchat die ihm durch die Funktion übergebene ID.
 
 
 
