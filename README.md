@@ -15,14 +15,19 @@ Infotext zu
 <img src="b12e79c4-08de-4ecd-8339-b53b524df982.jpg">
 
 /status/in
-<img src="ec979cec-e4cb-4844-a327-dbb8959a7c5f.jpg">
+<img src="9d4947ae-602c-43ba-a62e-e0970cb7cea9.jpg">
+
 
 /status/im
 <img src="0e8d0af3-3df9-4fd3-9e02-a08bd3e9b5f9.jpg">
 
-<img src="9d4947ae-602c-43ba-a62e-e0970cb7cea9.jpg">
-
+funktion
 <img src="439c575e-886a-4fbb-b347-b71f1feb0e71.jpg">
+
+Telegramm
+<img src="ec979cec-e4cb-4844-a327-dbb8959a7c5f.jpg">
+
+
 
 
 
