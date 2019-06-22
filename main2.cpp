@@ -1,7 +1,5 @@
 /*
- * Blink
- * Turns on an LED on for one second,
- * then off for one second, repeatedly.
+ * 
  */
 
 #include "Arduino.h"
@@ -18,9 +16,9 @@ PubSubClient client(espClient);
   int bluePin = D5;
 
   void setColor(int redValue, int greenValue, int blueValue) {
-  analogWrite(redPin, redValue);
-  analogWrite(greenPin, greenValue);
-  analogWrite(bluePin, blueValue);
+    analogWrite(redPin, redValue);
+    analogWrite(greenPin, greenValue);
+    analogWrite(bluePin, blueValue);
   }
 
   void callback(char* topic, byte* payload, unsigned int length) {
@@ -53,20 +51,20 @@ PubSubClient client(espClient);
   }
 
   void setup() {
-  pinMode(redPin, OUTPUT);
-  pinMode(greenPin, OUTPUT);
-  pinMode(bluePin, OUTPUT);
+    pinMode(redPin, OUTPUT);
+    pinMode(greenPin, OUTPUT);
+    pinMode(bluePin, OUTPUT);
 
-  Serial.begin(115200);
-  Serial.println("hallo Welt");
+    Serial.begin(115200);
+    Serial.println("hallo Welt");
 
-  WiFi.mode(WIFI_STA);
-  WiFi.hostname("irgendwas");
-  WiFi.begin("hsb-labor","6MVfNSqdMr5SZo6d");
+    WiFi.mode(WIFI_STA);
+    WiFi.hostname("irgendwas");
+    WiFi.begin("hsb-labor","6MVfNSqdMr5SZo6d");
 
-  while(WiFi.status() != WL_CONNECTED){
-    delay(500);
-    Serial.print(".");
+    while(WiFi.status() != WL_CONNECTED){
+      delay(500);
+      Serial.print(".");
   }
   Serial.println(WiFi.localIP());
 
